@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase;
 #[CoversNothing]
 class InternalFnExceptionsTest extends TestCase
 {
-    public function testImplodeArgOrder(): void
+    public function testInternalFnExceptions(): void
     {
         $traverser = new NodeTraverser(new Visitor());
         $printer = new PrettyPrinter\Standard();
