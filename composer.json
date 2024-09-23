@@ -1,0 +1,14 @@
+{
+    "name": "haeckel/php-parser-issue-reproduction",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Haeckel\\PhpParserIssueReproduction\\": "src/"
+        }
+    },
+    "require": {
+        "nikic/php-parser": "^5.2"
+    }
+}
